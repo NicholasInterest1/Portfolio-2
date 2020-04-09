@@ -3147,10 +3147,11 @@ input, select, textarea {
 			.spotlights > section > .image {
 				height: 50vh;
 				min-height: 15em;
+				display: none;
 			}
 
 			.spotlights > section > .content {
-				padding: 3em 2em 1em 2em ;
+				/* padding: 3em 2em 1em 2em ; */
 			}
 
 		}
@@ -3260,6 +3261,12 @@ input, select, textarea {
 				.wrapper > .inner {
 					padding: 3em 2em 1em 2em ;
 				}
+				.wrapper > .inner > .style3 > .python {
+					margin-right: 75rem;
+				}
+				.java {
+					margin-right: 50rem;
+				}
 
 			}
 
@@ -3334,6 +3341,11 @@ input, select, textarea {
 						height: auto;
 					}
 
+			}
+			@media screen and (max-width: 667px) {
+				.wrapper.style3.fade-up > .java > .python {
+					margin-right: 50rem;
+				}
 			}
 
 		.wrapper.fade-up > .inner {
