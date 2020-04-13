@@ -97,7 +97,7 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
-		width:99.5%;
+		width:100%;
 	}
 
 	*, *:before, *:after {
