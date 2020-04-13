@@ -3330,7 +3330,6 @@ input, select, textarea {
 					body.is-ie .wrapper.fullscreen {
 						height: calc(100vh - 2.5em);
 					}
-
 			}
 
 			@media screen and (max-width: 736px) {
