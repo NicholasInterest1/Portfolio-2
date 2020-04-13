@@ -2197,6 +2197,8 @@ input, select, textarea {
 					border-top-width: 1px !important;
 					border-left-width: 0 !important;
 					width: 100%;
+					margin-bottom: 15px;
+					margin-right: 150px !important;
 				}
 
 					.features section:first-child {
@@ -3874,7 +3876,7 @@ input, select, textarea {
 						display: flex;
 						height: inherit;
 						line-height: inherit;
-						margin: 0;
+						margin-bottom: 150px;
 					}
 
 						#sidebar nav ul li {
@@ -3934,11 +3936,6 @@ input, select, textarea {
 					font-size: 1em;
 				}
 
-				.contactMe {
-				 display: flex;
-				 justify-content: center;
-				}
-
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -3947,4 +3944,16 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
+		}
+
+		@media screen and (max-width: 1017px) {
+			.element.style, img, .headerNick, .header2 {
+				display:none;
+			}
+		}
+
+		@media screen and (max-width: 656px) {
+			.element.sidebarUL {
+				display: contents;
+			}
 		}
