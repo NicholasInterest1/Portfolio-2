@@ -123,11 +123,13 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
+		background-color: #0E1217;
 		color: rgba(255, 255, 255, 0.55);
 		font-family: 'Roboto Condensed', sans-serif;
-		font-size: 16.5pt;
+		font-size: 15.025pt;
 		font-weight: normal;
 		line-height: 1.75;
+		width: 100%;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -3024,7 +3026,7 @@ input, select, textarea {
 		-ms-flex-direction: row;
 		flex-direction: row;
 		min-height: 22.5em;
-		background-color: rgb(26, 26, 26);
+		background-color:#0E1217;
 	}
 
 		body.is-ie .spotlights > section {
@@ -3093,11 +3095,11 @@ input, select, textarea {
 			}
 
 		.spotlights > section:nth-child(2) {
-			background-color: rgb(26, 26, 26);
+			background-color: #0E1217;
 		}
 
 		.spotlights > section:nth-child(3) {
-			background-color: rgb(26, 26, 26);
+			background-color:#0E1217;
 		}
 
 		.spotlights > section.inactive > .image:before,
@@ -3240,7 +3242,7 @@ input, select, textarea {
 	}
 
 		.wrapper > .inner {
-			padding: 5em 5em 3em 5em ;
+			padding: 2em 5em 3em 5em ;
 			max-width: 100%;
 			width: 75em;
 		}
@@ -3288,7 +3290,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: rgb(26, 26, 26);
+			background-color:#0E1217;
 		}
 
 		.wrapper.style2-alt {
